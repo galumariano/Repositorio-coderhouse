@@ -1,0 +1,144 @@
+/* Importar la fuente Montserrat desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap');
+
+/* Resetear márgenes y paddings por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa; /* Color de fondo suave */
+}
+
+/* Encabezado personalizado */
+header {
+    background-color: #BC9CB6;
+}
+
+/* Ajustes para la Navbar */
+.navbar-brand img {
+    max-width: 200px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el contenido principal */
+main h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    color: #555;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+main p {
+    color: rgb(148, 94, 198);
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+main h3 {
+    text-decoration: underline;
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+
+
+/* Estilos para las ofertas del día */
+
+.hover-effect img {
+    transition: transform 0.3s ease;
+}
+
+.hover-effect:hover img {
+    transform: scale(1.05);
+}
+
+.hover-effect {
+    transition: box-shadow 0.3s ease;
+}
+
+.hover-effect:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.inicio-ofertas-del-dia .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.inicio-ofertas-del-dia .card-text {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Footer personalizado */
+footer {
+    background-color: #CDB4C8;
+}
+
+footer h6 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+footer ul li {
+    display: flex;
+    align-items: center;
+}
+
+footer ul li i {
+    color: #555;
+}
+
+footer ul li span {
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsividad adicional si es necesario */
+@media (max-width: 576px) {
+    main h1 {
+        font-size: 2rem;
+    }
+
+    main h2 {
+        font-size: 1.5rem;
+    }
+
+    main h3 {
+        font-size: 1.25rem;
+    }
+
+    footer h6 {
+        font-size: 1rem;
+    }
+}
